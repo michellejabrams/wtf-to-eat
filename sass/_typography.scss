@@ -1,0 +1,61 @@
+// Load typefaces
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('../fonts/bebas/BEBAS___-webfont.eot');
+    src: url('../fonts/bebas/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas/BEBAS___-webfont.woff') format('woff'),
+         url('../fonts/bebas/BEBAS___-webfont.ttf') format('truetype'),
+         url('../fonts/bebas/BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Typography styles
+
+h1, h2, h3, h4, h5, h6, button {
+	font-family: $bebasregular;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 20px;
+
+	span {
+		font-family: inherit;
+		font-size: inherit;
+		line-height: inherit;
+	}
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 26px;
+	line-height: 34px;
+}
+
+div, p, strong, span {
+	font-family: $montserrat;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+strong {
+	font-weight: 700;
+
+	&.info-label {
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+}
+
+.btn {
+	font-size: 22px;
+	letter-spacing: 1px;
+	transition: 0.2s ease-in;
+	padding: 8px 20px;
+}

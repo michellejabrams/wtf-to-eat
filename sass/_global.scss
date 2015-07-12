@@ -1,0 +1,58 @@
+.attck-logo {
+	margin: 10px 0;
+}
+
+.btn {
+	background-color: $softblack;
+	color: $white;
+
+	&:active,
+	&:focus,
+	&:hover {
+		color: $white;
+	}
+
+	&:hover {
+		background-color: $attckyellow;
+	}
+}
+
+.wtf-wrapper {
+	text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.lunchpicker-container {
+	margin: 100px 0;
+}
+
+.restaurant-info-wrapper {
+	text-align: center;
+	margin-top: 40px;
+
+	.restaurant-name {
+		display: inline-block;
+		border-bottom: 2px solid black;
+		padding-bottom: 4px;
+	}
+}
+
+
+.order-link {
+	cursor: pointer;
+}
+
+// This overrides Bootstrap's blue glow on focus. Need to use !important tags here to override native Bootstrap styles.
+
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+	outline: none;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
