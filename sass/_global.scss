@@ -1,5 +1,6 @@
-.attck-logo {
-	margin: 10px 0;
+body {
+	background: url('../img/taxis_1500x500_desat.jpg') no-repeat;
+	background-size: cover;
 }
 
 .btn {
@@ -17,32 +18,8 @@
 	}
 }
 
-.wtf-wrapper {
-	text-align: center;
-}
-
 .hide {
     display: none;
-}
-
-.lunchpicker-container {
-	margin: 100px 0;
-}
-
-.restaurant-info-wrapper {
-	text-align: center;
-	margin-top: 40px;
-
-	.restaurant-name {
-		display: inline-block;
-		border-bottom: 2px solid black;
-		padding-bottom: 4px;
-	}
-}
-
-
-.order-link {
-	cursor: pointer;
 }
 
 // This overrides Bootstrap's blue glow on focus. Need to use !important tags here to override native Bootstrap styles.
@@ -55,4 +32,36 @@ a:focus,
 	-webkit-box-shadow: none !important;
 	-moz-box-shadow: none !important;
 	box-shadow: none !important;
+}
+
+.lunchpicker-container {
+	margin-top: 100px;
+
+	.wtf-wrapper {
+		color: $black;
+		text-align: center;
+
+		.attck-logo {
+			margin: 10px 0;
+		}
+	}
+
+	.restaurant-info-wrapper {
+		text-align: center;
+		margin-top: 40px;
+
+		.order-link {
+			cursor: pointer;
+			font-size: 20px;
+			font-weight: 700;
+			letter-spacing: 1px;
+			line-height: 30px;
+		}
+
+		.restaurant-name {
+			display: inline-block;
+			border-bottom: 2px solid black;
+			padding-bottom: 4px;
+		}
+	}
 }

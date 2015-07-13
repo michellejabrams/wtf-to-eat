@@ -69,57 +69,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 1, ../sass/_global.scss */
-.attck-logo {
-  margin: 10px 0;
+body {
+  background: url("../img/taxis_1500x500_desat.jpg") no-repeat;
+  background-size: cover;
 }
 
-/* line 5, ../sass/_global.scss */
+/* line 6, ../sass/_global.scss */
 .btn {
   background-color: #222;
   color: #fff;
 }
-/* line 9, ../sass/_global.scss */
+/* line 10, ../sass/_global.scss */
 .btn:active, .btn:focus, .btn:hover {
   color: #fff;
 }
-/* line 15, ../sass/_global.scss */
+/* line 16, ../sass/_global.scss */
 .btn:hover {
   background-color: #ffcc05;
 }
 
-/* line 20, ../sass/_global.scss */
-.wtf-wrapper {
-  text-align: center;
-}
-
-/* line 24, ../sass/_global.scss */
+/* line 21, ../sass/_global.scss */
 .hide {
   display: none;
 }
 
-/* line 28, ../sass/_global.scss */
-.lunchpicker-container {
-  margin: 100px 0;
-}
-
-/* line 32, ../sass/_global.scss */
-.restaurant-info-wrapper {
-  text-align: center;
-  margin-top: 40px;
-}
-/* line 36, ../sass/_global.scss */
-.restaurant-info-wrapper .restaurant-name {
-  display: inline-block;
-  border-bottom: 2px solid black;
-  padding-bottom: 4px;
-}
-
-/* line 44, ../sass/_global.scss */
-.order-link {
-  cursor: pointer;
-}
-
-/* line 50, ../sass/_global.scss */
+/* line 27, ../sass/_global.scss */
 a:focus,
 .btn:focus,
 .btn:active:focus,
@@ -128,6 +102,39 @@ a:focus,
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important;
+}
+
+/* line 37, ../sass/_global.scss */
+.lunchpicker-container {
+  margin-top: 100px;
+}
+/* line 40, ../sass/_global.scss */
+.lunchpicker-container .wtf-wrapper {
+  color: #000;
+  text-align: center;
+}
+/* line 44, ../sass/_global.scss */
+.lunchpicker-container .wtf-wrapper .attck-logo {
+  margin: 10px 0;
+}
+/* line 49, ../sass/_global.scss */
+.lunchpicker-container .restaurant-info-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+/* line 53, ../sass/_global.scss */
+.lunchpicker-container .restaurant-info-wrapper .order-link {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+/* line 61, ../sass/_global.scss */
+.lunchpicker-container .restaurant-info-wrapper .restaurant-name {
+  display: inline-block;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
 }
 
 @font-face {
