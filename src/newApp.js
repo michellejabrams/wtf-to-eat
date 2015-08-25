@@ -20,13 +20,15 @@ var LunchPicker = React.createClass({
 		    "phone": "347-946-6225",
 		    "type": "Mexican",
 		    "link": "http://www.dostoros.com/"
+		    "pickupOnly": true;
 		},
 		{
 		    "name": "DiDi Dumpling",
 		    "address": "38 Lexington Avenue, New York, NY 10010",
 		    "phone": "212-466-6618",
 		    "type": "Chinese",
-		    "link": "http://www.dididumplings.com/"
+		    "link": "http://www.dididumplings.com/",
+		    "pickupOnly": true;
 		},
 		{
 		    "name": "Mamagyro",
@@ -56,6 +58,36 @@ var LunchPicker = React.createClass({
 		    "phone": "646-755-7837",
 		    "type": "Salad Bar",
 		    "link": "http://www.seamless.com/food-delivery/chop-t-creative-salad-co-flatiron-new-york-city.22115.r"
+		},
+		{
+		    "name": "Boka",
+		    "address": "9 Saint Marks Place, New York, NY 10003",
+		    "phone": "646-678-5796",
+		    "type": "Korean",
+		    "link": "http://www.seamless.com/food-delivery/boka-new-york-city.7736.r"
+		},
+		{
+		    "name": "Indikitch",
+		    "address": "25 W 23rd Street, New York, NY 10010",
+		    "phone": "646-590-7152",
+		    "type": "Indian",
+		    "link": "http://www.seamless.com/food-delivery/indikitch-23rd-st-new-york-city.39162.r"
+		},
+		{
+		    "name": "Sweetgreen",
+		    "address": "1164 Broadway, New York, NY 10010",
+		    "phone": "646-449-8884",
+		    "type": "Salad Bar",
+		    "link": "https://order.sweetgreen.com/nomad/menu",
+		    "pickupOnly": true;
+
+		},
+		{
+		    "name": "Hale & Hearty",
+		    "address": "40 E 23rd Street, New York, NY 10010",
+		    "phone": "212-533-8800",
+		    "type": "Soup and Sandwiches",
+		    "link": "http://www.seamless.com/food-delivery/hale-hearty-e-23rd-st-new-york-city.39740.r"
 		}
 		];
 
@@ -94,7 +126,7 @@ var LunchPicker = React.createClass({
 					<div className="col-xs-12">
 						<div className="wtf-wrapper">
 							<h1>
-								What the f&amp;*k should <br />
+								What the fuck should <br />
 								<img src="img/attck_logo.png" className="attck-logo" /> <br />
 								eat for lunch!?
 							</h1>
